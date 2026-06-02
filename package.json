@@ -1,0 +1,21 @@
+{
+  "name": "libreria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "start": "node bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "http-errors": "^2.0.1",
+    "morgan": "^1.10.1",
+    "mysql": "^2.18.1"
+  }
+}
