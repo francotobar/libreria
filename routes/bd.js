@@ -1,10 +1,11 @@
 let mysql = require('mysql');
 
+
 let conexion = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '12345678',
-    database: 'libreria'
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME
 });
 
 conexion.connect(function(error) {
