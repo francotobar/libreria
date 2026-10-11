@@ -32,6 +32,6 @@ La API quedará disponible en `http://localhost:3000`.
 | PUT    | /libros/:id   | Modifica un libro existente  |
 | DELETE | /libros/:id   | Elimina un libro             |
 
-Los datos que se envían en POST y PUT son: [].
+Los datos que se envían en POST y PUT son: [titulo, autor, precio, stock].
 
 Proyecto desarrollado con asistencia de IA
